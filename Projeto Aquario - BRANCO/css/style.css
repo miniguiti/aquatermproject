@@ -196,14 +196,13 @@ p{
     justify-content: center;
 }
 
-#bloco1 {background-color: #ff8a004d;}
-#bloco2 {background-color: #0075ff30;}
-#bloco3 {background-color: #ff8a004d;}
+#bloco1 {background-color: rgba(255, 138, 0, 0.21);}
+#bloco2 {background-color: rgba(0, 117, 255, 0.19);}
+#bloco3 {background-color: rgba(255, 138, 0, 0.21);}
 
 .bloco {
 	z-index: 9999;
 	width: 25%;
-	background-color: #efefef;
 	margin: 10px;
 	float: left;
 }
@@ -257,7 +256,7 @@ p{
 #casa{
 	float:left;
 	width:50%;
-	background-color:#ff8a004d;
+	background-color: rgba(255, 138, 0, 0.21);
 	padding-left: 11%;
 }
 
@@ -278,7 +277,7 @@ p{
 #loja{
 	float:right;
 	width:50%;
-	background-color:#0075ff30;
+	background-color: rgba(0, 117, 255, 0.19);
 	padding-right: 11%;
 }
 
