@@ -208,19 +208,22 @@ p{
 }
 .bloco img {
 	width: 80%;
+	height: 40%;
 	margin-left: 40px;
 	margin-top: 10px;
-	margin-bottom: 10px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
-
+	filter: grayscale(100%);	
 }
 
 .bloco img:hover{
 	width: 100%;
+	height:40%;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+	filter: grayscale(0%);
+	
 }
 .bloco h1 { 
 	text-align: center;
