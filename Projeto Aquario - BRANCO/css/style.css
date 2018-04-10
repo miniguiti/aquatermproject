@@ -65,7 +65,6 @@ body{
 			color: #f2f2f2;
 			font-size: 15px;
 			padding: 45px;
-			position: absolute;
 			bottom: -108px;
 			width: 100%;
 			text-align: center;
@@ -167,27 +166,25 @@ p{
 /*FIM CSS DO MENU*/
 
 #conteudoP {
+	height: 40%;
 	margin-top: 3%;
-	background-color: #ffd7b582;
-	margin-left: 10%;
-	margin-right: 10%;
-    display: flex;
+	background-color: rgba(000, 000, 000, 0.3);
     justify-content: center;
     flex-wrap: wrap;
 }
 
 #conteudoP p{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 11%;
+	margin-right: 11%;
 	font-family: Helvetica;
-	color: #737373;
+	color: white;
 }
 
 #conteudoP h1{
 	margin-top: 2%;
 	font-family: Helvetica;
 	font-weight: lighter;
-	color: #505050;
+	color: white;
 	text-align: center;
 }
 
@@ -198,17 +195,20 @@ p{
     display: flex;
     justify-content: center;
 }
+
+#bloco1 {background-color: #ff8a004d;}
+#bloco2 {background-color: #0075ff30;}
+#bloco3 {background-color: #ff8a004d;}
+
 .bloco {
 	z-index: 9999;
 	width: 25%;
 	background-color: #efefef;
 	margin: 10px;
-	padding: 20px;
 	float: left;
 }
 .bloco img {
-	width: 120px;
-	height: 120px;
+	width: 80%;
 	margin-left: 40px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -216,6 +216,12 @@ p{
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.bloco img:hover{
+	width: 100%;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 .bloco h1 { 
 	text-align: center;
@@ -226,10 +232,66 @@ p{
 .bloco p { 
     font-family: Roboto,sans-serif;
     font-size: 20px;
-    margin-top: 5px;
+    margin: 5px;
     text-decoration: none;
     color: #737373;
     text-align: center;
+}
+
+.lojaCasa {
+	display: flex;
+	margin-top: 5%;
+}
+.lojaCasa h1{
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: #505050;
+    text-align: center;
+}
+
+.lojaCasa p{
+    font-family: Helvetica;
+    color: #737373;
+}
+
+#casa{
+	float:left;
+	width:50%;
+	background-color:#ff8a004d;
+	padding-left: 11%;
+}
+
+
+#casa img{
+	float:right;
+	margin-right:5%;
+	width:40%;
+
+}
+
+#casa:hover{
+	width: 100%;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#loja{
+	float:right;
+	width:50%;
+	background-color:#0075ff30;
+	padding-right: 11%;
+}
+
+#loja img{
+	float:left;
+	margin-left:5%;
+	width:40%;
+
+}
+#loja:hover{
+	width: 100%;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 /*INICIO CSS RODAPE*/
