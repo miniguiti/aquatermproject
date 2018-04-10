@@ -97,6 +97,8 @@ body{
 			}
 /*FIM DO CSS DO SLIDER*/
 
+
+/*INICIO CSS DO MENU*/
 .logo {
 	width: 260px;
     height: 70px;
@@ -162,254 +164,10 @@ p{
         background: rgb(114,50,125); 
 
 }
-
-.riscaHori {
-    width: 70%;
-    opacity: 0.5;
-    margin-bottom: 15px;
-    margin-top: 70px;
-    margin-left: 15%;
-    padding: 1px;
-    font-size: 30px;
-    border-bottom: 1px solid #737373;
-}
-
-div#blocos{
-	position: relative;
-	background-color: white;
-	background-size: cover;
-	width: 100%;
-	min-height: 100%;
-	display: flex;
-	justify-content: center;
-	--align-items: center;
-	flex-wrap: wrap;
-
-}
-
-div#blocos h1{
-	text-align: center;
-	color: #333333;
-	font-family: Roboto,sans-serif;
-	padding-bottom: 10px;
-	
-}
+/*FIM CSS DO MENU*/
 
 
-div#bloco1{
-	
-	width: 300px;
-	height: 370px;
-	background-color: rgba(000, 000, 000, 0.1);
-	margin: 10px;
-	padding: 20px;
-	float: left;
-	
-}
-p#qmSomos{
-	font-family: Roboto,sans-serif;
-	font-size: 20px;
-	margin-top: 5px;
-	text-decoration: none;
-	color: #737373;
-	text-align: center;
-}
-
-div#bloco1 img{
-	width: 120px;
-	height: 120px;
-	margin-left: 40px;
-	margin-top: -10px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div#bloco2{
-	
-	width: 300px;
-	height: 370px;
-	background-color: rgba(000, 000, 000, 0.1);
-	margin: 10px;
-	padding: 20px;
-	display: inline;
-	float: left;
-}
-p#projet{
-	font-family: Roboto,sans-serif;
-	font-size: 20px;
-	margin-top: 5px;
-	text-decoration: none;
-	color: #737373;
-	text-align: center;
-}
-
-div#bloco2 img{
-	width: 120px;
-	height: 120px;
-	margin-left: 40px;
-	margin-top: -10px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div#bloco3{
-	
-	width: 300px;
-	height: 370px;
-	background-color: rgba(000, 000, 000, 0.1);
-	margin: 10px;
-	padding: 20px;
-	display: inline;
-	float: left;
-}
-
-p#ideia{
-	font-family: Roboto,sans-serif;
-	font-size: 20px;
-	margin-top: 5px;
-	text-decoration: none;
-	color: #737373;
-	text-align: center;
-}
-
-div#bloco3 img{
-	width: 120px;
-	height: 120px;
-	margin-left: 40px;
-	margin-top: -10px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div#integrantes{
-	width: 100%;
-	background-color: rgba(000, 000, 000, 0.3);
-	min-height: 365px;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	padding: 20px;
-
-}
-p.inte{
-	padding: 5px;
-	text-align: center;
-	font-family: Roboto,sans-serif;
-	font-size: 30px;
-	color: #dee5ef;
-	width: 100%;
-}
-
-div#integrante1{
-	
-	position: relative;
-	width: 150px;
-	height: 150px;
-	background-image: url(../img/integrante1.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	margin: 10px;
-	padding: 20px;
-	border-radius: 50%;
-
-	
-}
-p#int1{
-	margin-top: 140px;
-	text-align: center;
-	font-family: Roboto,sans-serif;
-	color: white;
-	font-size: 17px;
-
-}
-div#integrante2{
-	position: relative;
-	width: 150px;
-	height: 150px;
-	background-color: white;
-	margin: 10px;
-	padding: 20px;
-	border-radius: 50%;
-	
-}
-p#int2{
-	margin-top: 135px;
-	text-align: center;
-	font-family: Roboto,sans-serif;
-	color: white;
-	font-size: 17px;
-
-}
-
-div#integrante3{
-	position: relative;
-	width: 150px;
-	height: 150px;
-	background-color: white;
-	margin: 10px;
-	padding: 20px;
-	border-radius: 50%;
-	
-}
-
-p#int3{
-	margin-top: 135px;
-	text-align: center;
-	font-family: Roboto,sans-serif;
-	color: white;
-	font-size: 17px;
-
-}
-
-div#integrante4{
-	position: relative;
-	width: 150px;
-	height: 150px;
-	background-image: url(../img/integrante4.jpeg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	margin: 10px;
-	padding: 20px;
-	border-radius: 50%;
-	
-}
-
-p#int4{
-	margin-top: 135px;
-	text-align: center;
-	font-family: Roboto,sans-serif;
-	color: white;
-	font-size: 17px;
-
-}
-div#integrante5{
-	position: relative;
-	width: 150px;
-	height: 150px;
-	background-image: url(../img/integrante5.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-color: white;
-	margin: 10px;
-	padding: 20px;
-	border-radius: 50%;
-	
-}
-
-p#int5{
-	margin-top: 135px;
-	text-align: center;
-	font-family: Roboto,sans-serif;
-	color: white;
-	font-size: 17px;
-
-}
-
+/*INICIO CSS RODAPE*/
 div#rodape{
 	position: relative;
 	background-color: rgba(000, 000, 000, 0.3);
@@ -469,7 +227,7 @@ p#info{
 	font-size: 17px;
 	color: white;
 }
-
+/*FIM CSS RODAPE*/
 
 ::-webkit-scrollbar {
     width:8px;
